@@ -24,7 +24,7 @@ namespace Vesuvius
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "ClientApp/dist";//"apps/vesuvius/ClientApp/dist";
+                configuration.RootPath = "apps/vesuvius/ClientApp/dist";//"apps/vesuvius/ClientApp/dist";
             });
         }
 
@@ -59,6 +59,11 @@ namespace Vesuvius
 
             //remember to add XForwarding
 
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
+             
             app.UseSpa(spa =>
             {
                 // To learn more about options for serving an Angular SPA from ASP.NET Core,
