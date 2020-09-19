@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nicho/Desktop/Projects/Vesuvius/Vesuvius.csproj": {}
+    "/home/njohnson/GIT/vesuvius/Vesuvius.csproj": {}
   },
   "projects": {
-    "/Users/nicho/Desktop/Projects/Vesuvius/Vesuvius.csproj": {
+    "/home/njohnson/GIT/vesuvius/Vesuvius.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nicho/Desktop/Projects/Vesuvius/Vesuvius.csproj",
+        "projectUniqueName": "/home/njohnson/GIT/vesuvius/Vesuvius.csproj",
         "projectName": "Vesuvius",
-        "projectPath": "/Users/nicho/Desktop/Projects/Vesuvius/Vesuvius.csproj",
-        "packagesPath": "/Users/nicho/.nuget/packages/",
-        "outputPath": "/Users/nicho/Desktop/Projects/Vesuvius/obj/",
+        "projectPath": "/home/njohnson/GIT/vesuvius/Vesuvius.csproj",
+        "packagesPath": "/home/njohnson/.nuget/packages/",
+        "outputPath": "/home/njohnson/GIT/vesuvius/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nicho/.nuget/NuGet/NuGet.Config"
+          "/home/njohnson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

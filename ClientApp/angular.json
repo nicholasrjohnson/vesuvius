@@ -29,7 +29,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/popper.js/dist/esm/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_moduels/pixi.js/pixi.min.js",
+              "node_modules/pixi.js/dist/pixi.min.js",
               "node_modules/box2d/box2dnode.js",
               "src/site.js",
               "src/game.js"
@@ -86,7 +86,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/popper.js/dist/esm/popper.min.js",
               "node_modules/bootstrap/dist/js/boostrap.min.js",
-              "node_modules/pixi.js/pixi.min.js",
+              "node_modules/pixi.js/dist/pixi.min.js",
               "node_modules/box2d/box2dnode.js",
               "src/site.js",
               "src/game.js"],

@@ -1,0 +1,30 @@
+{
+  "name": "vesuvius",
+  "version": "1.0.0",
+  "description": "A neat volcano game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasrjohnson/vesuvius.git"
+  },
+  "author": "Nicholas R Johnson",
+  "license": "GPL-1.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nicholasrjohnson/vesuvius/issues"
+  },
+  "homepage": "https://github.com/nicholasrjohnson/vesuvius#readme",
+  "devDependencies": {
+    "dapper": "0.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "box2d": "^1.0.0",
+    "jquery": "^3.5.1",
+    "pixi": "^0.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
+  }
+}
