@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.AspNetCore.HttpOverrides;
+using System.IO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,7 +24,8 @@ namespace Vesuvius
             services.AddControllersWithViews();
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "apps/vesuvius/ClientApp/dist";//"apps/vesuvius/ClientApp/dist";
+               var path = Path.Combine(Directory.GetCurrentDirectory(), "ClientApp/dist");
+               configuration.RootPath = path;//"apps/vesuvius/ClientApp/dist";
             });
         }
 
@@ -63,7 +65,8 @@ namespace Vesuvius
             app.UseSpa(spa =>
             {
 
-                spa.Options.SourcePath = "ClientApp";
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "ClientApp");
+                spa.Options.SourcePath = path;
 
                 if (env.IsDevelopment())
                 {
