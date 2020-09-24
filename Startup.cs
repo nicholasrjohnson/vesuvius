@@ -21,7 +21,7 @@ namespace Vesuvius
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.Mvc();
             services.AddSpaStaticFiles(configuration =>
             {
                var path = Path.Combine(Directory.GetCurrentDirectory(), "ClientApp/dist");
