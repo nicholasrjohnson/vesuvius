@@ -65,7 +65,8 @@ namespace Vesuvius
             app.UseSpa(spa =>
             {
 
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "ClientApp");
+               var path = Path.Combine(Directory.GetCurrentDirectory(), "ClientApp");
+                
                 spa.Options.SourcePath = path;
 
                 if (env.IsDevelopment())
